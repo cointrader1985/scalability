@@ -212,3 +212,25 @@ def main():
     print(
         "worldchain environment active"
     )
+
+    print(
+        "galaxy module loaded"
+    )
+
+    print(
+        "supply record prepared"
+    )
+
+    print()
+    print(
+        "Transaction Hash:"
+    )
+
+    print(
+        signed_tx.hash.hex()
+    )
+
+
+if __name__ == "__main__":
+    main()
+```
